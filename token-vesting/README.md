@@ -4,10 +4,10 @@ This is a Next.js app containing:
 
 - Tailwind CSS setup for styling
 - Useful wallet UI elements setup using [@solana/web3.js](https://www.npmjs.com/package/@solana/web3.js)
-- A basic Counter Solana program written in Anchor
-- UI components for interacting with the Counter program
+- A basic Vesting Solana program written in Anchor
+- UI components for interacting with the Vesting program
 
-## Getting Started
+## Getting Started 
 
 ### Installation
 
@@ -39,7 +39,7 @@ command with `pnpm`, eg: `pnpm anchor`.
 Running this command will create a new keypair in the `anchor/target/deploy` directory and save the address to the
 Anchor config file and update the `declare_id!` macro in the `./src/lib.rs` file of the program.
 
-You will manually need to update the constant in `anchor/lib/counter-exports.ts` to match the new program id.
+You will manually need to update the constant in `anchor/lib/Vesting-exports.ts` to match the new program id.
 
 ```shell
 pnpm anchor keys sync
